@@ -1,0 +1,117 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  background-color: var(--primary-color);
+  font-family: var(--primary-font) !important;
+}
+.sidenav-container a {
+  font-family: var(--primary-font) !important;
+}
+.logo {
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+}
+
+.mat-drawer-side {
+  border: none;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+i {
+  font-style: normal;
+  font-size: 1.25em;
+  margin-right: 16px;
+}
+
+.avatar {
+  width: 1.75em;
+  border-radius: 50%;
+  margin: 0 10px 5px;
+}
+
+.mat-button,
+.mat-icon-button,
+.mat-stroked-button,
+.mat-flat-button,
+.sidenav-container span {
+  color: white;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: var(--blue);
+}
+
+.color-orange {
+  background-color: var(--orange);
+}
+
+.color-green {
+  background-color: var(--green);
+}
+
+.theme-pick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-hubballi {
+  font-family: "Hubballi", cursive;
+}
+
+.font-openSans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-dancingScript {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-kalam {
+  font-family: "Kalam", cursive;
+}
