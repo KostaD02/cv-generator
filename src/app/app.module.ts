@@ -3,16 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomepageComponent } from './views/homepage/homepage.component';
+import { NotfoundComponent } from './views/notfound/notfound.component';
+import { MaterialModule } from './module/material/material.module';
+import { HeaderComponent } from './shared/header/header.component';
+import { LoaderComponent } from './shared/loader/loader.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent, HomepageComponent, NotfoundComponent, HeaderComponent, LoaderComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
