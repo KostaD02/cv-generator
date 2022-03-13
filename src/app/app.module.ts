@@ -9,9 +9,10 @@ import { NotfoundComponent } from './views/notfound/notfound.component';
 import { MaterialModule } from './module/material/material.module';
 import { HeaderComponent } from './shared/header/header.component';
 import { LoaderComponent } from './shared/loader/loader.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomepageComponent, NotfoundComponent, HeaderComponent, LoaderComponent],
+  declarations: [AppComponent, HomepageComponent, NotfoundComponent, HeaderComponent, LoaderComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

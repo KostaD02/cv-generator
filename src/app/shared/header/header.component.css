@@ -1,5 +1,6 @@
 .sidenav-container {
   height: 100%;
+  box-shadow: -1px 3px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 .mat-toolbar-row,
@@ -42,7 +43,6 @@
 i {
   font-style: normal;
   font-size: 1.25em;
-  margin-right: 16px;
 }
 
 .avatar {
@@ -114,4 +114,12 @@ i {
 
 .font-kalam {
   font-family: "Kalam", cursive;
+}
+
+.fa-github {
+  margin-right: 10px;
+}
+
+.nav-items i {
+  padding-right: 5px;
 }

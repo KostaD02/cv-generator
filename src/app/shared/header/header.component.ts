@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   constructor(private breakpointObserver: BreakpointObserver) {}
   ngOnInit(): void {
     let primaryColor = localStorage.getItem('primary-color');
-    let primaryFont = localStorage.getItem('primaryFont');
+    let primaryFont = localStorage.getItem('primary-font');
     if (primaryColor) {
       document.documentElement.style.setProperty(
         '--primary-color',
@@ -77,6 +77,6 @@ export class HeaderComponent implements OnInit {
       root.style.setProperty('--primary-font', "'Montserrat',sans-serif");
       primaryFont = "'Montserrat',sans-serif";
     }
-    localStorage.setItem('primary-color', primaryFont);
+    localStorage.setItem('primary-font', primaryFont);
   }
 }
